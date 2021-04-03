@@ -7,12 +7,11 @@
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Britcham | Macao</title>
+    <title><?php wp_title(''); ?>Britcham | Macao</title>
     <link rel="shortcut icon" href="img/logo-bbam.png" />
     <!-- Bootstrap 4.5 CSS -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>css/bootstrap.min.css" type="text/css" media="all" />
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all" />
+    
     <!-- Google Fonts -->
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
@@ -25,9 +24,11 @@
     />
     <link
       rel="stylesheet"
-      href="<?php echo get_template_directory_uri(); ?>https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" type="text/css" media="all"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" type="text/css" media="all"
     />
-    <?php wp_head();?>
+    <?php wp_head(); ?>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
   </head>
   <body>
     <a name="top"></a>
