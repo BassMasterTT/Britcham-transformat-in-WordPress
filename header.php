@@ -28,7 +28,7 @@
     />
     <?php wp_head(); ?>
     <!-- Style CSS -->
-    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
   </head>
   <body>
     <a name="top"></a>
